@@ -4,7 +4,7 @@
     "homepage": "https://github.com/stefanschramek/NZBGet-Extension-CleanupFiles",
     "kind": "POST-PROCESSING",
     "displayName": "Cleanup Files",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Stefan Schramek",
     "license": "GNU",
     "about": "Deletes unwanted files.",
