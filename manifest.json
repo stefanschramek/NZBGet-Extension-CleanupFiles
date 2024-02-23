@@ -1,0 +1,42 @@
+{
+    "main": "main.py",
+    "name": "CleanupFiles",
+    "homepage": "https://github.com/stefanschramek/NZBGet-Extension-CleanupFiles",
+    "kind": "POST-PROCESSING",
+    "displayName": "Cleanup Files",
+    "version": "1.0.0",
+    "author": "Stefan Schramek",
+    "license": "GNU",
+    "about": "Deletes unwanted files.",
+    "queueEvents": "",
+    "requirements": [
+        "This script requires Python to be installed on your system."
+    ],
+    "description": ["This script deletes unwanted files when the job is done."],
+    "options": [
+        {
+            "name": "unwantedFileExtensions",
+            "displayName": "Extensions",
+            "value": ".png,.jpg",
+            "description": [
+                "This is a list of file extensions that will be deleted.",
+                "",
+                "Multiple addresses can be separated with comma."
+            ],
+            "select": []
+        },
+        {
+            "name": "unwantedFileNames",
+            "displayName": "Filenames",
+            "value": "Thumbs.db",
+            "description": [
+                "This is a list of filenames that will be deleted.",
+                "",
+                "Multiple addresses can be separated with comma."
+            ],
+            "select": []
+        }
+    ],
+	  "commands": [],
+	  "taskTime": ""
+}
